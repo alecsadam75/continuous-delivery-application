@@ -45,16 +45,16 @@ jib{
     from {
         image = "amazoncorretto:17.0.3-alpine3.15"
         auth {
-            username = System.getenv("DOCKER_USER")
-            password = System.getenv("DOCKER_PASSWORD")
+            username = System.getenv("alecsadam")
+            password = System.getenv("wiggin5791")
         }
     }
     to {
-        image = "zalerix/continuous-delivery-example"
+        image = "alecsadam/continuous-delivery-example"
         tags = setOf("latest", "${project.version}")
         auth {
-            username = System.getenv("DOCKER_USER")
-            password = System.getenv("DOCKER_PASSWORD")
+            username = System.getenv("alecsadam")
+            password = System.getenv("wiggin5791")
         }
     }
     container {
