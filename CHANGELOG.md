@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/alecsadam75/continuous-delivery-application/compare/1.0.0...1.0.1) (2022-12-11)
+
+
+### Bug Fixes
+
+* adding the push to registry ([d14cfb2](https://github.com/alecsadam75/continuous-delivery-application/commit/d14cfb2660e58883e9f766cd5c3c7d42c1ffc02e))
+
 # 1.0.0 (2022-12-11)
 
 
