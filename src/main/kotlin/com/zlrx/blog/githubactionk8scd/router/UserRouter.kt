@@ -36,7 +36,7 @@ data class User(
 class UserService {
 
     fun getUsers(): Flow<User> = flow {
-        emit(User(1, "BART"))
-        emit(User(2, "BART-SIMPSON"))
+        emit(User(1, "B A R T"))
+        emit(User(2, "B A R T-SIMPSON"))
     }
 }
