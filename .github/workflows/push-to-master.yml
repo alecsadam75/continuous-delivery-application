@@ -87,7 +87,7 @@ jobs:
           command: |
             cd base
             kustomize edit set image zalerix/continuous-delivery-example:latest=alecsadam75/continuous-delivery-example:${{ env.app_version }}
-            git config --global user.email 'alecsadam75@gmail.com"
+            git config --global user.email "alecsadam75@gmail.com"
             git config --global user.name "alecsadam75"
             git add .
             git commit -m "build: update continuous-delivery-example image tag to ${{ env.app_version }}"
