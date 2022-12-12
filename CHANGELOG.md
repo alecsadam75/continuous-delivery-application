@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/alecsadam75/continuous-delivery-application/compare/1.0.2...1.0.3) (2022-12-12)
+
+
+### Bug Fixes
+
+* kustomization 2 ([f1675c8](https://github.com/alecsadam75/continuous-delivery-application/commit/f1675c8b5c75b995c1300c7a7a2c9cee668bcd03))
+
 ## [1.0.2](https://github.com/alecsadam75/continuous-delivery-application/compare/1.0.1...1.0.2) (2022-12-12)
 
 
