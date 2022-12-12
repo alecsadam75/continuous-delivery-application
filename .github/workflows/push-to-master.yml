@@ -59,7 +59,7 @@ jobs:
         with:
           arguments: jib -x test
 
-update-kustomize:
+  update-kustomize:
     needs:
       - release
     runs-on: ubuntu-latest
