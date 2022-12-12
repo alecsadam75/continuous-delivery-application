@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/alecsadam75/continuous-delivery-application/compare/1.0.4...1.1.0) (2022-12-12)
+
+
+### Features
+
+* bart ([8a9443c](https://github.com/alecsadam75/continuous-delivery-application/commit/8a9443c2def33da780f401b3418263051c168588))
+
 ## [1.0.4](https://github.com/alecsadam75/continuous-delivery-application/compare/1.0.3...1.0.4) (2022-12-12)
 
 
