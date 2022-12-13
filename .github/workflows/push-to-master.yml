@@ -86,7 +86,7 @@ jobs:
           kustomize: 4.5.4
           command: |
             cd base
-            kustomize edit set image zalerix/continuous-delivery-example:latest=alecsadam75/continuous-delivery-example:${{ env.app_version }}
+            kustomize edit set image zalerix/continuous-delivery-example:latest=alecsadam/continuous-delivery-example:${{ env.app_version }}
             git config --global user.email "alecsadam75@gmail.com"
             git config --global user.name "alecsadam75"
             git add .
